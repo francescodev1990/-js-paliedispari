@@ -1,4 +1,4 @@
-prompt('Per favore inserisci una parola');
+ let word = prompt('Per favore inserisci una parola');
 
 let parola = 'palindroma';
 
