@@ -1,17 +1,16 @@
  let word = prompt('Per favore inserisci una parola');
 
-let parola = 'palindroma';
+let check  = checkPalindroma(word);
 
-let parolaInversa = invertiParola;
 
-if(parola == parolaInversa){
+if(check == word){
     console.log('la parola è palindroma');
 }
 else{
     console.log('la parola non è palindroma');
 }
 
-function invertiParola(str){
+function checkPalindroma(str){
     let strInversa = str.split('').reverse().join('');
     return strInversa;
 }
