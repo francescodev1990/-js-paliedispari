@@ -1,0 +1,1 @@
+let numero = prompt('Per favore inserisci un numero che sia compreso tra 1 e 5');
